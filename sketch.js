@@ -4,6 +4,10 @@ $.ajax({
   dataType: 'text',
 }).done(successFunction);
 
+function successFunction(data) {
+ console.log(data);
+}
+
 function setup() {
   createCanvas(1000, 400);
 }
