@@ -1,3 +1,9 @@
+
+$.ajax({
+  url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSmuHLlBk5Ts6VPcVSOT3TKda4pyfbhpeZGumrttC3cscJ1OhwHlRhOZvdQeKw6Mq-vH1ezwf-uPub7/pub?output=csv',
+  dataType: 'text',
+}).done(successFunction);
+
 function setup() {
   createCanvas(1000, 400);
 }
